@@ -1,0 +1,13 @@
+h1 {
+	color: rgb(2,145,153);
+	text-align: center;
+	border-image: (dolphins.png);
+}
+#bottom {
+	border: 1px solid white;
+	height: 40px;
+	text-align: center;
+	length: 500px;	
+	position: relative;
+	top: 672px;
+}

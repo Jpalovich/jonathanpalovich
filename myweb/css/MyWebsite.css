@@ -1,0 +1,161 @@
+/*Sidebar
+-------------------------------------------------*/
+.leftsidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 3;
+    top: 0;
+    left: 0;
+    background-color: #171d1c;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 70px;
+}
+
+.leftsidebar a {
+    padding: 20px 8px 20px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #63adf2;
+    display: block;
+    transition: 0.3s
+}
+
+.leftsidebar a:hover, .offcanvas a:focus{
+    color: white;
+}
+
+.leftsidebar .close {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 2%;
+}
+
+@media screen and (max-height: 450px) {
+  .leftsidebar {padding-top: 15px;}
+  .leftsidebar a {font-size: 18px;}
+}
+/*End Sidebar
+-------------------------------------------------*/
+/*All Headers
+-------------------------------------------------*/
+.Top {
+	color: #fbfef9;
+	border: 10px solid #171d1c;
+	background-color: #171d1c;
+	text-align: center; 
+	z-index: -1;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	left: 0px;
+	margin: auto;
+}
+/*End Headers
+-------------------------------------------------*/
+/*Home Page Pictures
+-------------------------------------------------*/
+#img1 {
+	position: absolute;
+	top: 15%;
+	right: 75%;
+}
+#img2 {
+	position: absolute;
+	top: 15%;
+	right: 50%;
+}
+#img3 {
+	position: absolute;
+	top: 15%;
+	right: 25%;
+}
+/*End Home Pictures
+-------------------------------------------------*/
+/*About Me Page
+-------------------------------------------------*/
+.about {
+	background: #171d1c;
+	color: white;
+	text-align: center;
+	position: relative;
+	padding: 15px 0px 25px 0px;
+	z-index: -1;	
+	margin: 25% 0% 0% 0%;
+	border: 1px solid green;
+}
+/*End About Me
+-------------------------------------------------*/
+/*Portfolio Page UL
+-------------------------------------------------*/
+#sites {
+	columns: 3;
+    -webkit-columns: 3;
+    -moz-columns: 3;
+}
+/*End Portfolio sites
+-------------------------------------------------*/
+/* Portfolio Page boxes
+-------------------------------------------------*/
+.portsites {
+	height: 300px;
+	text-decoration: none;
+	padding: 20px 20px;
+	overflow: hidden;
+}
+/*End Portfolio Boxes
+-------------------------------------------------*/
+/*Contact Page Bar
+-------------------------------------------------*/
+#info {
+	position: relative;
+	margin-left: auto;
+    margin-right: auto;
+	border: 1px solid black;
+	padding: 10px 25px 10px 25px;
+	text-align: center;
+	top: 100px;
+	background-color: #171d1c;
+}
+/*End Contact Page Bar
+-------------------------------------------------*/
+span {
+	color: white;
+	position: absolute;
+	margin: 0%;
+	top: 0%;
+	left: 0%;
+}
+li a:link {
+	color: black;
+	text-decoration: none;
+}
+li a:visited {
+	color: black;
+}
+li a:hover {
+	color: white;
+}
+a:focus {
+outline: none;
+}
+body {
+	background: -webkit-linear-gradient(white, #63adf2, #2f4f4f); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(white, #63adf2, #2f4f4f); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(white, #63adf2, #2f4f4f); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(white, #63adf2, black); /* Standard syntax */
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin: auto;
+}
+p {
+	border: 1px solid #171d1c;
+	color: white;
+	margin: 0% 26%
+}
+html {
+	height: 325%
+}

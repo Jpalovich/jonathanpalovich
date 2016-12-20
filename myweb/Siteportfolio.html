@@ -1,0 +1,33 @@
+<!doctype html>
+<head>
+	<title>Jonathan</title>
+<meta charset="UTF-8">
+<link rel="stylesheet" type="text/css" href="css/MyWebsite.css">
+<link rel="shortcut icon" type="image/x-icon" href="icon.ico">
+</head>
+<body>
+<div id="sidebar" class="leftsidebar">
+	<a href="javascript:void(0)" class="close" onclick="closeNav()">&times;</a>
+	<a href="Siteindex.html">Home</a>
+	<a href="Siteresume.html">Resume</a>
+	<a href="Sitecontact.html">Contact Me</a>
+</div>
+<h1 class="Top">Portfolio</h1>
+<span style="font-size:30px;cursor:pointer;color:white;" onclick="openNav()">&#9776; Quick Links</span>
+	<ul id="sites">
+		<li class="portsites"><a href="sites/Portfoliobackground.html"><img src="pictures/color.jpg" alt="colors"></img></a></li>
+		<li class="portsites"><a href="sites/Portfolioweb.html"><img src="pictures/First.jpg" alt="first"></img></a></li>
+		<li class="portsites"><a href="sites/Portfoliogators.html"><img src="pictures/gradient.jpg" alt="gradient"></img></a></li>
+		<li class="portsites"><a href="sites/PortfolioWEB6.html"><img src="pictures/second.jpg" alt="second"></img></a></li>
+		<li class="portsites"><a href="sites/PortfolioFMTCindex.html"><img src="pictures/project.jpg" alt="project" ></img></a></li>
+	</ul>	
+<script>
+function openNav() {
+    document.getElementById("sidebar").style.width = "250px";
+}
+
+function closeNav() {
+    document.getElementById("sidebar").style.width = "0";
+}
+</script>
+</html>

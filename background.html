@@ -1,0 +1,47 @@
+<!doctype html>
+<head>
+	<title>background</title>
+<style>
+h1 {
+	font-size: 40px;
+	border: 1px solid black;
+	text-align: center;
+	background-color: white;
+}
+p {
+	border: 1px solid black;
+	float: left;
+}
+button {
+	position: absolute;
+	float: right;
+	height: 75px;
+	length:100px;
+	margin-left: 1725px;
+}
+</style>
+<script>
+	function getRandomColor() {
+		var letters = '0123456789ABCDEF'.split('');
+		var color = '#'
+		for (var i = 0; i < 6; i++) {
+			color += letters[Math.round(Math.random() * 15)];
+		}
+		document.getElementById("thebody").style.backgroundColor = color;
+	}
+</script>
+</head>
+<body id="thebody">
+<h1>Hello</h1>
+<p>did you<br>
+	know the<br>
+	button on<br>
+	the right<br>
+	changes the<br>
+	screen to<br>
+	any random<br>
+	color<br>
+<p>
+<button id="thebody" onclick="getRandomColor()">Click For Fun!</button>
+</body>
+</html>

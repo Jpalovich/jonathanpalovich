@@ -1,0 +1,13 @@
+h1 {
+	text-align: center;
+	color: black;}
+p {
+	color: black;}
+h2 {
+	color: black;}
+table, th, td {
+	border: 2px solid black;
+	color: black;}
+a {
+	float: left;
+	color: black;}
